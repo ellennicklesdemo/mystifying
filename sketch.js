@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 10);
+  background(0, 0, 255, 10);
 
   for (let i = 0; i < mystifies.length; i++) {
     mystifies[i].show();
